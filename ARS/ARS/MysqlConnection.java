@@ -13,7 +13,7 @@ public class MysqlConnection
 		String dbUrl = dbRoot + hostname + dbname;
 		
 		String hostUsername = "root";
-		String hostPassword = "ysdsyd@321";
+		String hostPassword = "####";    //mysql-password
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection myconn = (Connection)DriverManager.getConnection(dbUrl, hostUsername, hostPassword);
